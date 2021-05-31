@@ -1,0 +1,67 @@
+<html lang="pt-br">
+<link rel="stylesheet" href="Projeto5.css">
+    <head>
+        <title>Projeto 5</title>
+    </head>
+
+    <body>
+    <div class="back"></div>
+        <div class= "cabeca">
+            <h1>freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </div>
+       <form action="">
+           <label id="name">Name</label><br>
+           <input  type="text" name="name" id="name" placeholder="Colaque seu nome">
+
+           <label id="Genero">Email</label><br>
+           <input type="text" name="email" id="name" placeholder="Coloque seu email">
+
+           <label id="age">Age</label><br>
+           <input type="number" name="age" id="number" placeholder="Age" >
+
+           <div class="Selects">
+           <label id="job">Which option best describes your current role?</label><br>
+           <select id=dropwrow name="role" class="from-control" required>
+               <option disabled selected value>
+                   Select current role
+               </option>
+               <option value="student">Estudante</option>
+               <option value="learner">Full time Job</option>
+               <option value="preferNo">Prefer not to say</option>
+               <option value="other">Other</option>
+           </select>
+           </div>
+
+           <div class="escolhas-form">
+               <p class="text">Would you recommend freeCodeCamp to a friend?</p>
+               <label>
+                   <input type="radio" name="recommend" value="definitely" class="input-radio">Definitely</label>
+               </label>
+               <label>
+                   <input type="radio" name="recommend" value="maybe" class="input-radio">Maybe
+                </label>
+
+                <label>
+                    <input type="radio" name="recommend" value="Not sure" class="input-radio">Not sure
+                </label>
+                
+
+           </div>
+           <div class="Selects-2">
+            <label id="job">What is your favorite feature of freeCodeCamp?</label><br>
+            <select id=dropwrow name="role" class="from-control" required>
+                <option disabled selected value>
+                    Select an option
+                </option>
+                <option value="student">Challenges</option>
+                <option value="learner">Projects</option>
+                <option value="preferNo">Community</option>
+                <option value="other">Open Source</option>
+            </select>
+            </div>
+
+       </form>
+    </div>
+    </body>
+</html>
